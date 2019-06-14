@@ -1,0 +1,9 @@
+[package]
+name = "plyde-lib"
+version = "0.0.1"
+authors = ["snuk182"]
+edition = "2018"
+
+[lib]
+name = "plyde_lib"
+path = "src/lib.rs"

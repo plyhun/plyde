@@ -1,0 +1,12 @@
+[package]
+name = "plyde-bin"
+version = "0.1.0"
+authors = ["snuk182"]
+edition = "2018"
+
+[[bin]]
+name = "plyde"
+path = "src/main.rs"
+
+[dependencies]
+plyde-lib = { path = "../lib" }
